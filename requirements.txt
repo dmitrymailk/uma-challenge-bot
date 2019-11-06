@@ -1,0 +1,4 @@
+pandas
+pickle
+tensorflow
+python-telegram-bot
