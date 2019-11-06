@@ -1,4 +1,5 @@
 pandas
 pickle-mixin
 tensorflow
+opencv-python
 python-telegram-bot
