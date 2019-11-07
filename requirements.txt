@@ -54,9 +54,6 @@ wrapt==1.11.2
 # =======
 # pandas
 pickle-mixin
-libsm6 
-libxext6 
-libxrender-dev
 # tensorflow
 # opencv-python
 # python-telegram-bot
