@@ -20,16 +20,15 @@ def image(update, context):
 
 
 def main():
-    updater = Updater(TOKEN,  use_context=True)
+    updater = Updater(TOKEN, request_kwargs=REQUEST_KWARGS, use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(MessageHandler(Filters.photo, image))
-
     updater.start_polling()
 
     updater.idle()
 
 
-if __name__ == '__main__':
-    main()
+
+main()
