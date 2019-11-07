@@ -1,5 +1,6 @@
 import neural
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+# from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+from telegram import Updater, CommandHandler, MessageHandler, Filters
 from telegram import Bot
 
 # Settings
