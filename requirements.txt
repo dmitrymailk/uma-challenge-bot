@@ -1,14 +1,7 @@
-numpy==1.16.4
+numpy
 opencv-python
-pandas==0.25.3
-python-telegram-bot==12.2.0
-telegram==0.0.1
-
-tensorflow==1.0.1
-
-# =======
-# pandas
+pandas
+python-telegram-bot
+tensorflow
 pickle-mixin
-# tensorflow
-# opencv-python
-# python-telegram-bot
+
