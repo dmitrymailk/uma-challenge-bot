@@ -1,7 +1,5 @@
 import neural
-# from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-from telegram import Updater, CommandHandler, MessageHandler, Filters
-from telegram import Bot
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 
 # Settings
 TOKEN = '1023230889:AAEAuFDVPXMNpOd9o7ZWE7AjEEJAEDzx2LA'
