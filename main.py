@@ -4,9 +4,6 @@ from telegram import Bot
 
 # Settings
 TOKEN = '1023230889:AAEAuFDVPXMNpOd9o7ZWE7AjEEJAEDzx2LA'
-REQUEST_KWARGS = {
-    'proxy_url': 'http://167.172.140.175:3128/',
-}
 
 
 def start(update, context):
