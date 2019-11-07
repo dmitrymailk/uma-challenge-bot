@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 absl-py==0.8.1
 astor==0.8.0
 botogram==0.5
@@ -52,10 +51,9 @@ tqdm==4.37.0
 urllib3==1.25.6
 Werkzeug==0.16.0
 wrapt==1.11.2
-=======
-pandas
+# =======
+# pandas
 pickle-mixin
-tensorflow
-opencv-python
-python-telegram-bot
->>>>>>> 55b7d60acdf404549567ffd4e1faba6dbad19f71
+# tensorflow
+# opencv-python
+# python-telegram-bot
