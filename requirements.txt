@@ -1,5 +1,5 @@
 numpy==1.16.4
-opencv-python-headless
+opencv-python
 pandas==0.25.3
 python-telegram-bot==12.2.0
 telegram==0.0.1
