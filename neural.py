@@ -1,4 +1,4 @@
-import cv2 as cv2
+import cv2 
 import tensorflow as tf
 import pandas as pd
 import pickle
