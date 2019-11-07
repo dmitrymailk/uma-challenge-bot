@@ -20,7 +20,7 @@ def image(update, context):
 
 
 def main():
-    updater = Updater(TOKEN, request_kwargs=REQUEST_KWARGS, use_context=True)
+    updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
