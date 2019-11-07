@@ -1,7 +1,7 @@
 numpy<1.17
 pandas
 python-telegram-bot
-tensorflow
+tensorflow==1.15
 pickle-mixin
 opencv-python-headless
 
