@@ -3,4 +3,5 @@ pandas
 python-telegram-bot
 tensorflow
 pickle-mixin
+opencv-python-headless
 
