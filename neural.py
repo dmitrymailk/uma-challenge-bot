@@ -14,8 +14,9 @@ def prepare(filepath):
 
 
 def main():
+    print("Hello, I have started")
     model = tf.keras.models.load_model("64x3-CNN.model")
-    prediction = model.predict([prepare('./img/image.jpg')])
+    prediction = model.predict([prepare('img/image.jpg')])
     result = man_classes[list(prediction[0]).index(max(prediction[0]))]
     print(result)
     return result
