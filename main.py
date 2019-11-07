@@ -7,7 +7,7 @@ TOKEN = '1023230889:AAEAuFDVPXMNpOd9o7ZWE7AjEEJAEDzx2LA'
 
 def start(update, context):
     update.message.reply_text(
-        'Здравстуй! Отправь мне картинку и я скажу тебе их класс.')
+        "Hello, give me a picture, please.")
 
 
 def image(update, context):
